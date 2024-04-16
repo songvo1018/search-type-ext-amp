@@ -1,0 +1,12 @@
+<search>
+
+    <!--    rs:query - 59 -->
+    <!--    ra:search-query-short - portal.local demo stand -->
+
+    <default-operator>AND</default-operator>
+
+    <default-query-template>%
+        (cm:name cm:title cm:description  ra:search-query-short rs:query TEXT TAG)
+    </default-query-template>
+
+</search>
